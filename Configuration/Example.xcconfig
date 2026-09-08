@@ -1,0 +1,7 @@
+// Safe defaults for both Debug and Release, including test targets.
+DEVELOPMENT_TEAM =
+MYWEATHER_BUNDLE_ID = com.example.MyWeather
+MYWEATHER_ENTITLEMENTS =
+
+// Optional, untracked settings owned by the developer building this example.
+#include? "Local.xcconfig"

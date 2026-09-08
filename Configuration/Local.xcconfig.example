@@ -1,0 +1,7 @@
+// Copy to Local.xcconfig (ignored by Git), then replace these placeholders.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+MYWEATHER_BUNDLE_ID = com.yourname.MyWeather
+
+// Opt in to real location and WeatherKit requests.
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) LIVE_WEATHER
+MYWEATHER_ENTITLEMENTS = MyWeather/MyWeather.entitlements

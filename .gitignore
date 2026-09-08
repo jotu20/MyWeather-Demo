@@ -1,0 +1,19 @@
+.DS_Store
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+
+# Developer-specific signing and service configuration
+Configuration/Local.xcconfig
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+AuthKey_*
