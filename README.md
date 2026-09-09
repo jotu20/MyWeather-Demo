@@ -39,3 +39,6 @@ MYWEATHER_ENTITLEMENTS = MyWeather/MyWeather.entitlements
 Keep personal signing settings in `Configuration/Local.xcconfig`, which is ignored by Git. Never commit private keys, signing certificate exports, or authentication tokens.
 
 Team IDs and bundle identifiers are not secrets. Git ignore rules do not protect files that are already tracked.
+
+<img width="402" height="874" alt="Simulator Screenshot - iPhone 17 Pro - 2026-09-08 at 19 11 26" src="https://github.com/user-attachments/assets/c2b581af-51eb-486c-bc80-53aaae5c83de" />
+<img width="402" height="874" alt="Simulator Screenshot - iPhone 17 Pro - 2026-09-08 at 18 10 12" src="https://github.com/user-attachments/assets/997a946e-42e1-464c-81e7-11a18966bba1" />
