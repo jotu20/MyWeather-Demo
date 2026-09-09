@@ -36,8 +36,7 @@ struct DayForecastView: View {
                     .frame(width: dayWidth, alignment: .leading)
                 
                 HStack(spacing: 10) {
-                    Image(systemName: conditionSymbolName)
-                        .symbolRenderingMode(.multicolor)
+                    WeatherConditionIcon(symbolName: conditionSymbolName)
                         .font(.title3)
                         .frame(width: iconWidth, alignment: .leading)
                     Text(temperature)

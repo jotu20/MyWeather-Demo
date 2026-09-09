@@ -49,8 +49,7 @@ struct ForecastView: View {
                 }
                 
                 HStack(spacing: 10) {
-                    Image(systemName: weatherManager.currentWeather?.symbolName ?? conditionSymbolName)
-                        .symbolRenderingMode(.multicolor)
+                    WeatherConditionIcon(symbolName: weatherManager.currentWeather?.symbolName ?? conditionSymbolName)
                         .font(.largeTitle)
                         .accessibilityHidden(true)
                     Text(weatherManager.currentWeather.map { getTemperature($0.temperature, unit: temperatureUnit) } ?? temperature)
